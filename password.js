@@ -8,9 +8,9 @@ const reader = readline.createInterface({
 });
 
 reader.question("Please enter a password to validate" , function(answer) {
-    if (answer.length >= 10) {
+    if (answer.length >= 10 && answer.includes("!") && answer.includes("&")) {
         console.log("Succes! Your password is valid.")
-    } else if (answer.length < 10){
-        console.log("Error: your password needs to contain at least 10 characters")
+    } else {
+        console.log("Error: your password must contain at least 10 characters and both of the following symbols '!' '&'")
     }
 })
