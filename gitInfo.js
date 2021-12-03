@@ -9,6 +9,9 @@
     It should be a string containing your best definition of what Git is.
 */
 
+let gitDefinition = "Git repositories save coding files. you can edit, save, and upload changes including comments. \nGit works locally but can work in conjucntion with remote access on GitHub, where files are stored\n with remote access for programmers to work topgether or to display your work."
+console.log(gitDefinition)
+
 //CODE HERE
 
 //////////////////PROBLEM 2////////////////////
@@ -18,6 +21,10 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is a remote database where files are stored in a cloud that can be accessed online. \n This allows programmers to work together and show their work."
+console.log(gitHubDefinition)
+
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +42,15 @@
 
 //CODE HERE
 
+const init = {
+    description: 'Creates a new git repositoty.',
+    code: 'git init'
+}
+
+console.log(init.code)
+console.log(init.description)
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +58,14 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: 'Creates a copy of an existing repository.',
+    code: 'git clone'
+}
+
+console.log(clone.code)
+console.log(clone.description)
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +75,14 @@
 
 //CODE HERE
 
+const status = {
+    description: 'Shows status of repository such as if there are untracked files or changes which need to be committed.',
+    code: 'git status'
+}
+
+console.log(status.code)
+console.log(status.description)
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -59,6 +91,14 @@
 
 //CODE HERE
 
+const add = {
+    description: 'Adds a copy of changes made to file, similar to saving a word document.',
+    code: 'git add'
+}
+
+console.log(add.code)
+console.log(add.description)
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +106,13 @@
 */
 
 //CODE HERE
+const commit = {
+    description: 'Saves changes made along with a user-inputed message notating what was changed.',
+    code: 'git commit'
+}
 
+console.log(commit.code)
+console.log(commit.description)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +121,10 @@
 */
 
 //CODE HERE
+const push = {
+    description: `Pushes local file to remote destination of user's choice.`,
+    code: 'git push'
+}
+
+console.log(push.code)
+console.log(push.description)
