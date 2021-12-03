@@ -21,6 +21,11 @@
 // Testing & Integration
 // Maintain
 
+let arrSdlc = [`Planning` , `Analysis of Requirements` , `Design` , `Implementation` , `Testing & Integration` , `Maintain`]
+console.log(arrSdlc)
+
+
+
 
 //////////////////PROBLEM 2////////////////////
 /*
