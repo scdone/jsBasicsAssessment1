@@ -43,3 +43,16 @@ console.log(middleNums)
 */
 
 // CODE HERE
+
+let bigOrSmall = [12, 3, 5, 120, 70, 179, 1, 4]
+let answers = []
+for (let i = 0; i < bigOrSmall.length; i++){
+  if (bigOrSmall[i] > 100) {
+    answers.push("big")
+  } else if (bigOrSmall[i] <= 100) {
+    answers.push("small")
+  } console.log(answers)
+}
+  
+  
+
